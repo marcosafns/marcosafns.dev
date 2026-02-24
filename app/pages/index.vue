@@ -1,4 +1,7 @@
 <script setup lang="ts">
+
+useSeoMeta({ title: 'marcosafns dev' })
+
 interface Particle {
   x: number; y: number
   vx: number; vy: number

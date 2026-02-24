@@ -48,16 +48,16 @@ Duas páginas, zero componentes externos, animações feitas à mão.
 ## ✦ Rodando localmente
 ```bash
 # instalar dependências
-pnpm install
+npm install
 
 # rodar em desenvolvimento
-pnpm dev
+npm dev
 
 # build para produção
-pnpm build
+npm build
 
 # preview do build
-pnpm preview
+npm preview
 ```
 
 ---
@@ -67,11 +67,6 @@ pnpm preview
 ├── pages/
 │   ├── index.vue       # home com canvas interativo
 │   └── contact.vue     # página de contato
-├── layouts/
-│   └── default.vue     # layout base com header e footer
-├── components/
-│   ├── AppHeader.vue
-│   └── AppFooter.vue
 ├── app.vue
 └── nuxt.config.ts
 ```
